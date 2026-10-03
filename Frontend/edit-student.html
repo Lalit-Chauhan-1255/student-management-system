@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Edit Student</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Edit Student</h1>
+</header>
+
+<div class="container">
+
+<form id="editForm">
+
+    <label>Name</label>
+    <input type="text" id="name" required>
+
+    <label>Email</label>
+    <input type="email" id="email" required>
+
+    <label>Phone</label>
+    <input type="text" id="phone" required>
+
+    <label>Date of Birth</label>
+    <input type="date" id="dob" required>
+
+    <label>Gender</label>
+
+    <select id="gender">
+
+        <option value="Male">Male</option>
+
+        <option value="Female">Female</option>
+
+        <option value="Other">Other</option>
+
+    </select>
+
+    <label>Address</label>
+
+    <textarea id="address"></textarea>
+
+    <label>Roll Number</label>
+
+    <input type="text" id="rollNumber" required>
+
+    <label>Course</label>
+
+    <select id="course">
+
+        <option value="B.Tech CSE">
+            B.Tech CSE
+        </option>
+
+        <option value="B.Tech IT">
+            B.Tech IT
+        </option>
+
+        <option value="BCA">
+            BCA
+        </option>
+
+        <option value="MCA">
+            MCA
+        </option>
+
+    </select>
+
+    <label>Semester</label>
+
+    <input type="number" id="semester">
+
+    <label>Marks</label>
+
+    <input type="number" id="marks">
+
+    <label>Attendance</label>
+
+    <input type="number" id="attendance">
+
+    <button type="submit">
+        Update Student
+    </button>
+
+</form>
+
+<a class="back" href="students.html">
+    Back to Students
+</a>
+
+</div>
+
+<script src="js/editStudent.js"></script>
+
+</body>
+
+</html>
